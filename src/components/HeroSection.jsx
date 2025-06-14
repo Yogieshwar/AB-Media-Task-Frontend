@@ -129,30 +129,11 @@ const HeroSection = () => {
           ))}
         </Box>
       </Container>
-
-      {/* Decorative sun icon */}
-      <Box
-        sx={{
-          position: 'absolute',
-          bottom: 80,
-          right: 80,
-          color: '#fbbf24',
-          opacity: 0.2,
-          display: { xs: 'none', lg: 'block' },
-          zIndex: 3,
-        }}
-      >
-        <Box
-          sx={{
-            width: 96,
-            height: 96,
-            position: 'relative',
-            border: '4px solid #fbbf24',
-            borderRadius: '50%',
-          }}
-        />
-      </Box>
+      
     </Box>
+
+     
+      
   );
 };
 
