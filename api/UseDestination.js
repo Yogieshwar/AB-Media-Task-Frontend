@@ -7,5 +7,7 @@ const fetchDestinations = async () => {
 };
 
 export const UseDestination = () => {
-  return useQuery('destinations', fetchDestinations);
+  return useQuery({
+  queryKey: ['destination'],
+  queryFn: fetchDestinations,})
 };

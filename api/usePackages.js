@@ -7,5 +7,7 @@ const fetchPackages = async () => {
 };
 
 export const usePackages = () => {
-  return useQuery('packages', fetchPackages);
+  return useQuery({
+    queryKey: ['packages'],
+    queryFn: fetchPackages,})
 };
