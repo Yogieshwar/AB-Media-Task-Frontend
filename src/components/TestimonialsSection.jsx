@@ -16,21 +16,21 @@ const TestimonialsSection = () => {
       id: '1',
       name: 'John Doe',
       designation: 'Company / Designation',
-      content: 'Test content used to demonstrate the visual form of a document or a typeface without relying on meaningful content placeholder text commonly used to demonstrate the visual form of a document or specific without relying on it.',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
       avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
     },
     {
       id: '2',
       name: 'Jane Smith',
       designation: 'Company / Designation',
-      content: 'Test content used to demonstrate the visual form of a document or a typeface without relying on meaningful content placeholder text commonly used to demonstrate the visual form of a document or specific without relying on it.',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
       avatar: 'https://images.unsplash.com/photo-1494790108755-2616b668b93c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
     },
     {
       id: '3',
       name: 'Mike Johnson',
       designation: 'Company / Designation',
-      content: 'Test content used to demonstrate the visual form of a document or a typeface without relying on meaningful content placeholder text commonly used to demonstrate the visual form of a document or specific without relying on it.',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
     }
   ];
