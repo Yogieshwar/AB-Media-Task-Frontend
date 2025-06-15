@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 
 const fetchDestinations = async () => {
-  const response = await axios.get('http://localhost:5000/api/destinations');
+  const response = await axios.get('https://ab-media-task-backend.onrender.com/api/destinations');
   return response.data;
 };
 
